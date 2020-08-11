@@ -1,4 +1,17 @@
-# Snake Game
+<h1 align="center">Welcome to Snake 👋</h1>
+<p>
+  <a href="LICENSE" target="_blank">
+    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
+  </a>
+  <a href="https://twitter.com/mbrsantana" target="_blank">
+    <img alt="Twitter: mbrsantana" src="https://img.shields.io/twitter/follow/mbrsantana.svg?style=social" />
+  </a>
+</p>
+
+> A simple snake game made in C++ and SDL 2
+
+![](.github/game.gif)
+
 The code for this repo was inspired by [this](https://codereview.stackexchange.com/questions/212296/snake-game-in-c-with-sdl) excellent StackOverflow post and set of responses.
 
 ## Dependencies for Running Locally
@@ -16,9 +29,32 @@ The code for this repo was inspired by [this](https://codereview.stackexchange.c
   * Mac: same deal as make - [install Xcode command line tools](https://developer.apple.com/xcode/features/)
   * Windows: recommend using [MinGW](http://www.mingw.org/)
 
-## Basic Build Instructions
+## Install
+On the top level directory
+```sh
+mkdir build && cd build
+cmake .. && make
+```
 
-1. Clone this repo.
-2. Make a build directory in the top level directory: `mkdir build && cd build`
-3. Compile: `cmake .. && make`
-4. Run it: `./SnakeGame`.
+## Usage
+
+```sh
+./SnakeGame
+```
+
+## Author
+
+👤 **Marcos Santana**
+
+* Twitter: [@mbrsantana](https://twitter.com/mbrsantana)
+* Github: [@zerocoolbr](https://github.com/zerocoolbr)
+* LinkedIn: [@marcosbrs](https://linkedin.com/in/marcosbrs)
+
+## Show your support
+
+Give a ⭐️ if this project helped you!
+
+## 📝 License
+
+Copyright © 2020 [Marcos Santana](https://github.com/zerocoolbr).<br />
+This project is [MIT](LICENSE) licensed.
